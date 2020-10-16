@@ -5,24 +5,13 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 TODO: Delete this and the text above, and describe your gem
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'hasher'
-```
-
-And then execute:
+Set up:
 
     $ bundle install
 
-Or install it yourself as:
-
-    $ gem install hasher
-
 ## Usage
 
-TODO: Write usage instructions here
+You can run $ ruby on scripts/main.rb to see example output. I might make a cli one day.
 
 ## Development
 

@@ -1,7 +1,7 @@
 require_relative '../lib/hasher/hashmap'
 require_relative '../lib/hasher/animal'
 
-hashmap = Hasher::Hashmap.new
+hashmap = Hasher::Hashmap.new(10)
 
 lemur = Hasher::Animal.new("Lemur", 4, ["insects", "fruit"])
 hashmap.add(lemur.name, lemur)
@@ -22,5 +22,16 @@ hashmap.add(guanaco.name, guanaco)
 otter = Hasher::Animal.new("Otter", 4, ["fish"])
 hashmap.add(otter.name, otter)
 mole = Hasher::Animal.new("Mole", 4, ["worms"])
+hashmap.add(mole.name, mole)
+civet = Hasher::Animal.new("Civet", 4, ["mice", "eggs"])
+hashmap.add(civet.name, civet)
+dugong = Hasher::Animal.new("Dugong", 0, ["seagrass"])
+hashmap.add(dugong.name, dugong)
+canary = Hasher::Animal.new("Canary", 2, ["apple", "carrot"])
+hashmap.add(canary.name, canary)
+leopard = Hasher::Animal.new("Leopard", 4, ["meat"])
+hashmap.add(leopard.name, leopard)
 
 hashmap.print_all
+hashmap.print("Deer")
+hashmap.print("Otter")
