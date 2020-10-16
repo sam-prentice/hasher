@@ -11,7 +11,11 @@ Set up:
 
 ## Usage
 
-You can run $ ruby on scripts/main.rb to see example output. I might make a cli one day.
+You can run 
+
+    $ ruby on scripts/main.rb 
+    
+to see example output. I might make a cli one day.
 
 ## Development
 
